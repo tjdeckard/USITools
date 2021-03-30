@@ -114,6 +114,7 @@
     <Compile Include="DependencyInjection\Interfaces\IServiceCollection.cs" />
     <Compile Include="DependencyInjection\Interfaces\IServiceManager.cs" />
     <Compile Include="DependencyInjection\ServiceDefinition.cs" />
+    <Compile Include="GroundFixtures\USI_BaseLeveler.cs" />
     <Compile Include="Helpers\ResourceHelpers.cs" />
     <Compile Include="Helpers\TimeFormatters.cs" />
     <Compile Include="UI\PrefabManager.cs" />
@@ -178,7 +179,8 @@
     <Compile Include="USI_Balloon.cs" />
     <Compile Include="USI_ClearIVA.cs" />
     <Compile Include="EnginesAndTanks\USI_DropTank.cs" />
-    <Compile Include="USI_InertialDampener.cs" />
+    <Compile Include="GroundFixtures\USI_GroundAnchorModule.cs" />
+    <Compile Include="GroundFixtures\USI_InertialDampener.cs" />
     <Compile Include="Deployables\USIAnimation.cs" />
     <Compile Include="USI_BaseAnchor.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
