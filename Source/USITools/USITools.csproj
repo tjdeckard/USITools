@@ -118,6 +118,13 @@
     <Compile Include="DependencyInjection\ServiceDefinition.cs" />
     <Compile Include="Helpers\ResourceHelpers.cs" />
     <Compile Include="Helpers\TimeFormatters.cs" />
+    <Compile Include="Switchers\ResourceCompartment.cs" />
+    <Compile Include="Switchers\TextureUtilities.cs" />
+    <Compile Include="Switchers\USI_ResourceSwapOption.cs" />
+    <Compile Include="Switchers\USI_ResourceSwitcherModule.cs" />
+    <Compile Include="Switchers\USI_ResourceSwitcherScenario.cs" />
+    <Compile Include="Traits\RepBoost.cs" />
+    <Compile Include="Traits\ScienceBoost.cs" />
     <Compile Include="UI\PrefabManager.cs" />
     <Compile Include="UI\Window.cs" />
     <Compile Include="UI\Utilities.cs" />
@@ -156,8 +163,6 @@
     <Compile Include="ModuleStoredResource.cs" />
     <Compile Include="Converters\USI_HarvesterSwapOption.cs" />
     <Compile Include="Logistics\ModuleAutoRepairer.cs" />
-    <Compile Include="RepBoost.cs" />
-    <Compile Include="ScienceBoost.cs" />
     <Compile Include="USI_GlobalBonuses.cs" />
     <Compile Include="Logistics\LogisticsConfig.cs" />
     <Compile Include="Logistics\LogisticsSetup.cs" />
@@ -177,8 +182,6 @@
     <Compile Include="EnginesAndTanks\USIAnimatedFuelTank.cs" />
     <Compile Include="Robotics\USIModuleHitch.cs" />
     <Compile Include="Robotics\USIModuleRotator.cs" />
-    <Compile Include="USI_Balloon.cs" />
-    <Compile Include="USI_ClearIVA.cs" />
     <Compile Include="EnginesAndTanks\USI_DropTank.cs" />
     <Compile Include="USI_InertialDampener.cs" />
     <Compile Include="Deployables\USIAnimation.cs" />
@@ -197,6 +200,10 @@
     <None Include="DependencyInjection\DI_README.md" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\ResourceSwitcherUI\ResourceSwitcherUI.csproj">
+      <Project>{9c6cc5b8-2536-46e5-877b-50c7a3ea8aae}</Project>
+      <Name>ResourceSwitcherUI</Name>
+    </ProjectReference>
     <ProjectReference Include="..\USIToolsUI\USIToolsUI.csproj">
       <Project>{80eea380-b128-4150-93b2-73bfc565a021}</Project>
       <Name>USIToolsUI</Name>

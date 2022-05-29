@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using Experience;
+﻿using Experience;
 
-namespace KolonyTools.Experience
+namespace USITools
 {
     public class ScienceBoost : ExperienceEffect
     {
